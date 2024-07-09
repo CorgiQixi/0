@@ -3,8 +3,7 @@ from PIL import Image
 import re
 import streamlit as st
 import io
-import cv2
-import numpy as np
+
 TESSDATA_PREFIX = r'C:\Program Files\Tesseract-OCR'
 st.set_page_config(page_title="PyTesseract", page_icon='favicon.png',menu_items=None,)
 st.title("PyTesseract")
